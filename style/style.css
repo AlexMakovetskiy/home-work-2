@@ -1,0 +1,191 @@
+/* Основные стили */
+
+body {
+    padding: 20px;
+}
+
+.body__header {
+    height: 100px;
+    width: 100%;
+
+    border: 1px solid black;
+
+    font-family: 'Lobster', serif;
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+    color: blue;
+}
+
+.body__header_table {
+    height: 100%;
+    width: 75%;
+    display: table;
+
+    margin-left: 10%;
+
+    background-color: lightgreen;
+}
+
+.body__header_table__cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.body__header_table__navigation-cell {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.body__header_table__logo-cell__logo-conteiner__img {
+    margin-left: 15px;
+
+    height: 64px;
+    width: 64px;
+}
+
+main img {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+
+.body__main {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    font-family: 'Arvo',Arial, Helvetica, serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.body__main__section {
+    margin-top: 25px;
+    padding: 10px;
+}
+
+body main section h2 {
+    font-weight: bold;
+}
+
+.body__main__section.first {
+    font-family: 'Arvo','Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+.body__main__section.first__conteiner {
+    height: 650px;
+    width: 1200px;
+}
+
+.body__main__section-first__conteiner__h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.body__main__section.first li, ol, p {
+    border: 1px soild black;
+}
+
+.body__main__section-first__ol {
+    margin-left: 15%;
+
+    border: 1px solid black;
+}
+
+.body__main__section.second {
+    font-family: 'Playfair Display', Arial, serif;
+    
+    background-color: aquamarine;
+}
+
+.body__main__section.second p {
+    border: 1px dashed darkgreen;
+}
+
+.body__main__section-second__textheader {
+    margin: 10px;
+
+    text-align: center;
+    font-weight: 700;
+}
+
+.body__main__section-second__texarea {
+    height: 300px;
+    width: 100%;
+
+    margin: 2% 5% 2% 5%;
+
+    overflow: scroll;
+}
+
+.body__main__section.second__conteiner {
+    height: 50%;
+    width: 80%;
+
+    margin-left: 10%;
+}
+
+
+.body__main__section.third {
+    font-family: 'Mukta', comic, sans-serif;
+    background-color: rgb(18, 221, 153);
+}
+
+.body__main__section.third p {
+    border: 2px dotted darkgoldenrod;
+}
+
+.body__main__section-third__h3 {
+    text-align: center;
+    margin: 10px;
+
+    opacity: 0.5;
+}
+
+.body__main__section.third__conteiner {
+    width: calc(70%+50px);
+    height: calc(100%-500px);
+
+    border: 1px solid black;
+}
+
+.body__footer {
+    height: 80px;
+    width: 100%;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    font-family: 'Lobster', serif;
+    font-size: 2rem;
+    line-height: 1.6rem;
+    color: lime;
+
+}
+
+.body__footer_table {
+    height: 100%;
+    width: 40%;
+
+    display: table;
+    margin-left: 30%;
+}
+
+.body__footer_table__cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.body__footer_table__cell__logo-conteiner__img {
+    width: 56px;
+    height: 56px;
+
+    margin-left: 15px;
+}
+
+.body__footer_table__navigation-cell {
+    display: inline-block;
+    margin-right: 10px;
+}
